@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Happy_Learning
+{
+    static class Program
+    {
+        /// <summary>
+        /// 应用程序的主入口点。
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            //先启动登陆界面Login窗体
+            FrmLogin loginForm = new FrmLogin();
+            loginForm.ShowDialog();
+            //若Login窗体的DialogResult属性为OK,则运行MainForm窗体, 作为整个程序的主界面
+            if (loginForm.DialogResult == DialogResult.OK)
+                Application.Run(new FrmMainForm());
+
+        }
+    }
+}

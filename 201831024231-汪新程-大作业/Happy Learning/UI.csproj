@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B32629F5-51AB-4CAF-B58A-9813FACE0FA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Happy_Learning</RootNamespace>
+    <AssemblyName>Happy Learning</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAdminCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminCheck.Designer.cs">
+      <DependentUpon>FrmAdminCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCLAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCLAccount.Designer.cs">
+      <DependentUpon>FrmCLAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFindPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFindPassword.Designer.cs">
+      <DependentUpon>FrmFindPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePassword.Designer.cs">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataReader.Designer.cs">
+      <DependentUpon>FrmDataReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDBOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDBOrders.Designer.cs">
+      <DependentUpon>FrmDBOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIdentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIdentification.Designer.cs">
+      <DependentUpon>FrmIdentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKidding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKidding.Designer.cs">
+      <DependentUpon>FrmKidding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMdiChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMdiChild.Designer.cs">
+      <DependentUpon>FrmMdiChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSignUp.Designer.cs">
+      <DependentUpon>FrmSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTypingGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTypingGame.Designer.cs">
+      <DependentUpon>FrmTypingGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsersManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsersManagement.Designer.cs">
+      <DependentUpon>FrmUsersManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWarnig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWarnig.Designer.cs">
+      <DependentUpon>FrmWarnig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainForm.Designer.cs">
+      <DependentUpon>FrmMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myRandom.cs" />
+    <Compile Include="PassList.cs" />
+    <Compile Include="PassUserName.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Cart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Cart.Designer.cs">
+      <DependentUpon>UC_Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Dialogue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Dialogue.Designer.cs">
+      <DependentUpon>UC_Dialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Home.Designer.cs">
+      <DependentUpon>UC_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_List.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_List.Designer.cs">
+      <DependentUpon>UC_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRTFEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRTFEditor.Designer.cs">
+      <DependentUpon>FrmRTFEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Menu.Designer.cs">
+      <DependentUpon>UC_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Users.Designer.cs">
+      <DependentUpon>UC_Users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAdminCheck.resx">
+      <DependentUpon>FrmAdminCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCLAccount.resx">
+      <DependentUpon>FrmCLAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFindPassword.resx">
+      <DependentUpon>FrmFindPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangePassword.resx">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataReader.resx">
+      <DependentUpon>FrmDataReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDBOrders.resx">
+      <DependentUpon>FrmDBOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIdentification.resx">
+      <DependentUpon>FrmIdentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKidding.resx">
+      <DependentUpon>FrmKidding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMdiChild.resx">
+      <DependentUpon>FrmMdiChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSignUp.resx">
+      <DependentUpon>FrmSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTypingGame.resx">
+      <DependentUpon>FrmTypingGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsersManagement.resx">
+      <DependentUpon>FrmUsersManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWarnig.resx">
+      <DependentUpon>FrmWarnig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainForm.resx">
+      <DependentUpon>FrmMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Cart.resx">
+      <DependentUpon>UC_Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Dialogue.resx">
+      <DependentUpon>UC_Dialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Home.resx">
+      <DependentUpon>UC_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_List.resx">
+      <DependentUpon>UC_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRTFEditor.resx">
+      <DependentUpon>FrmRTFEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Menu.resx">
+      <DependentUpon>UC_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Users.resx">
+      <DependentUpon>UC_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\学习64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\学习128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\电源.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bbutton32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dialogue32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打开48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新建48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\复制48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\剪切48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\全选48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\粘贴48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\文字32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打字32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打字机48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\礼盒32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\地信2班.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\地信2018二班.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\风景1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\风景500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cxk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cxk88.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dialogue120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\钩120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{f5073057-16e1-498e-a99b-76ccae66c162}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{7fd33ae7-9aff-4692-9b03-0ddcc7a0a302}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

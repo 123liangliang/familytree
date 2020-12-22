@@ -1,0 +1,41 @@
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\Happy Learning.exe.config
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Interop.WMPLib.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\UI.csproj.ResolveComReference.cache
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy Learning.exe
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy Learning.pdb
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\Happy Learning.exe
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\Happy Learning.pdb
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\BLL.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\Model.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\DAL.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\BLL.pdb
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\Model.pdb
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\DAL.pdb
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\Interop.WMPLib.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmAdminCheck.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmCLAccount.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmFindPassword.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmChangePassword.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmDataReader.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmDBOrders.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmIdentification.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmKidding.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmMdiChild.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmSignUp.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmTypingGame.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmUsersManagement.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmWarnig.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmLogin.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmMainForm.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.Properties.Resources.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.UC_Cart.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.UC_Dialogue.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.UC_Home.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.UC_List.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.FrmRTFEditor.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.UC_Menu.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\Happy_Learning.UC_Users.resources
+C:\Users\WXC\learngit\201831024231-汪新程-大作业\Happy Learning\obj\Debug\UI.csproj.GenerateResource.Cache
